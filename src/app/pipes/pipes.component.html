@@ -1,0 +1,28 @@
+<br> <br> <br> <h1> Pipes Topic Starting from here:</h1>
+
+<h3>String property in pipes</h3>
+<p>Befor pipes : {{name}}  After pipes :  {{name | lowercase}}</p>
+<p>Befor pipes : {{name}}  After pipes :  {{name | uppercase}}</p>
+<p>Befor pipes : {{message}}   After pipes :  {{message | titlecase}}</p>
+<p>Befor pipes : {{name}}  After pipes :  {{name | slice:3:5}}</p>
+<p>Befor pipes : {{obj}}  After pipes :  {{obj | json}}</p>
+
+<h3>Number property in pipes</h3>
+<p>Befor pipes :{{5.678}}  After Pipes   {{5.678 | number: '1.2-3'}}</p>
+<p>Befor pipes :{{5.678}}  After Pipes   {{5.678 | number: '3.4-5'}}</p>
+<p>Befor pipes :{{5.678}}  After Pipes   {{5.678 | number: '3.1-2'}}</p>
+
+<h3>Percentage property in pipes</h3>
+<p>Befor pipes :{{0.25}}  After Pipes   {{0.25 | percent}}</p>
+
+<h3>Currency property in pipes</h3>
+<p>Befor pipes :{{0.25}}  After Pipes   {{0.25 | currency}}</p>
+<p>Befor pipes :{{0.25}}  After Pipes   {{0.25 | currency : "GBP"}}</p>
+<p>Befor pipes :{{0.25}}  After Pipes   {{0.25 | currency : "GBP" : 'code'}}</p>
+<p>Befor pipes :{{0.25}}  After Pipes   {{0.25 | currency : "EUR"}}</p>
+
+<h3>Date Format property in pipes</h3>
+<p>{{date}}</p>
+<p>Befor pipes :{{date}}  <b>After Pipes:</b>   {{date | date : 'short'}}</p>
+<p>Befor pipes :{{date}}  <b>After Pipes:</b>   {{date | date : 'shortDate'}}</p>
+<p>Befor pipes :{{date}}  <b>After Pipes:</b>   {{date | date : 'shortTime'}}</p>

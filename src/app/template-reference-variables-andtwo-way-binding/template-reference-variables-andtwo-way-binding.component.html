@@ -1,0 +1,16 @@
+<br> <br> <br> <h1>Template Reference Variable Topic Starting from here:</h1>
+
+
+<input type="text" #myinput/>
+<button (click)="templateRefernce(myinput.value)">Log</button>
+
+
+<input type="checkbox" #mycolorRed><span #spanRed>Red</span>
+<input type="checkbox" #mycolorBlue><span #spanBlue>Blue</span>
+<!-- <button (click)="templateColor(mycolorBlue.checked, mycolorRed.checked, spanBlue.value, spanRed.value)">Template</button> -->
+
+
+<br> <br> <br> <h1>Two Way Binding Topic Starting from here:</h1>
+
+<input type="text" [(ngModel)]="username"/>
+{{username}}

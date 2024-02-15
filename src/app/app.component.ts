@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-app';
+  public name = "Swetha";
+  public lastName = "Ragunathan";
+  public message = "";
+
+
+  inputfield(name: any){
+    console.log(name)
+
+  }
 }
